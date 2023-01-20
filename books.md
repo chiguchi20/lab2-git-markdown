@@ -5,4 +5,4 @@ The Giver<br>
 The Fault in Our Stars<br>
 All the Bright Places</p>
 
-<p><images/IMG_7870.jpeg></p>
+<p>(/lab2-git-markdown/images/IMG_7870.jpeg)</p>
