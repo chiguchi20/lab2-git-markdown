@@ -15,7 +15,7 @@ tasks are comparable.  Here are the tasks:
    ```
    cd Desktop/school/info201/labs
    ```
-
+cd Desktop/INFO201/lab2-git-markdown
 1. **fork** this repository on Github under your user name (see
    [course book 4.6.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#forking-and-cloning)).
 
@@ -23,7 +23,7 @@ tasks are comparable.  Here are the tasks:
    book 4.3.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-getting-creating)).
    Write the command you
    used underneath in a code block.
-   
+git clone https://github.com/chiguchi20/lab2-git-markdown.git
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
    convenient.
@@ -37,30 +37,39 @@ tasks are comparable.  Here are the tasks:
 5. check **git status** (see [course book
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
-   
+"On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        books.md
+        lab2.md
+
+nothing added to commit but untracked files present (use "git add" to track)"   
    Explain, in plain text, what does it mean.
-   
+There is no changes in my main folder but it isn't tracking my files within the lab2-git-markdown folder because I didn't add them to the repo yet.
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
-
+git add <books.md>
 7. Was your add successful?  Check status again!  Explain what do you
    see.
-   
+My file was uploaded to the repository    
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
-   
+git commit -am "edited"   
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
-   
+It shows in the repo 
+ls shows that it is in the folder on my laptop
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
    
 11. Go to your github page.  Can you see the books.md file there with
     all the books listed?
-
+yes
 
 ## Folders and relative path
 
@@ -77,13 +86,15 @@ This task is about adding images and using relative path.
 
 4. add image to the repo.  Show the command you are using in a code
    block.
-   
+git add <IMG_7078>   
 5. check status again.  Does it indicate that the image has been
    added?
-   
+yes   
 6. what is the relative path of your image if you start walking there
    from the location of your books.md file?
-   
+cd ..
+cd lab1
+cd image
    You can check if the path is correct with something like `ls
    path-to/file`, e.g.
    ```
