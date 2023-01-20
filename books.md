@@ -6,5 +6,7 @@ The Fault in Our Stars<br>
 All the Bright Places</p>
 
 <p>
-![taco bell hot sauce](images/IMG_7870.jpeg)
+![taco bell hot sauce](images/Tacobell_sauce.jpg)
 </p>
+
+
