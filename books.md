@@ -1,4 +1,4 @@
-# <h1>Favorite Book List1</h1>
+# <h1>Favorite Book List</h1>
 <p>The Perks of Being a Wallflower<br>
 Normal People<br>
 The Giver<br>
